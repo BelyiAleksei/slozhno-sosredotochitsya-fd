@@ -10,8 +10,7 @@
   --rec-visibility-none: none;
   --rec-visibility-yes: flex; 
   --dot-visibility-yes: block;
-  --dot-visibility-none: none;
-  
+  --dot-visibility-none: none;  
   --theme-dark-color: rgba(255, 0, 112, 1);
   --theme-light-color: rgba(53, 52, 48, 1);
   --button-dark-hover: rgba(255, 0, 112, 0.4);
@@ -22,8 +21,6 @@
   --card-dark-text: rgba(241, 178, 206, 1);
   --decor-dark-color: rgba(0, 0, 40, 1);
   --decor-light-color: rgba(53, 52, 48, 1);
-
-
   --bg-image: var(--bg-dark-img);
   --bg-color: var(--bg-dark-color);
   --rec-visibility: var(--rec-visibility-yes);

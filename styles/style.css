@@ -35,7 +35,8 @@
   text-align: center;
   color: var(--theme-dark-color);
   padding-right: 29px;
-  padding-top: 22px;  
+  padding-top: 22px;
+
 }
 
 .header-lamp-REC::after {
@@ -107,7 +108,8 @@
   text-align: center;
   text-transform: lowercase;
   height: 26px;
-  width: 70px;  
+  width: 70px;
+  
 }
 
 .header__theme-menu-button_active {
