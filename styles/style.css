@@ -151,15 +151,6 @@
   margin-block-end: 22px;
 }
 
-.header-title-description {
-  margin-inline-end: 20px;
-  margin-block-end: 22px;
-  align-self: center;
-  justify-self: flex-end;
-  max-inline-size: calc(50% - 20px);
-  height: min-content;  
-}
-
 .title-decor {
   background-color: var(--title-color);
   color: var(--decor-color);
