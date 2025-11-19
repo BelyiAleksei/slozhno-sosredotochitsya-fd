@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */  
   font-family: "IBM Plex Mono", sans-serif;
   background-image: var(--bg-image);
   background-color: var(--bg-color);
@@ -12,7 +12,7 @@
 }
 
 .header {
-  padding: 10px;
+  padding-top: 8px;
   height: 100vh;
   display: grid;
   position: relative;
@@ -26,7 +26,7 @@
   display: var(--rec-visibility);
   top: 0;
   right: 0;
-  font-family: 'IBM Plex Mono';
+  font-family: 'IBM Plex Mono', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -46,7 +46,7 @@
   height: 9px;
   width: 9px;
   margin-left: 13px;
-  box-shadow: 0 0 3px 2px var(--theme-dark-color);
+  box-shadow: 0 0 4px 2px var(--theme-dark-color);
 }
 
 .decorated-zone::after {
@@ -81,7 +81,7 @@
   display: flex;
   align-self: flex-start;
   justify-self: center;
-  margin-top: 19px;
+  margin-top: 8px;
   color: var(--accent-color);
 }
 
@@ -98,7 +98,7 @@
 .header__theme-menu-button {
   background-color: transparent;
   border: 1px solid transparent;
-  font-family: 'IBM Plex Mono';
+  font-family: 'IBM Plex Mono', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 18%;
@@ -122,21 +122,26 @@
   border-bottom: 1px solid var(--accent-color);
 }
 
+
+/* ------------------- focus --------------------- */
+
+
 .main-title {
   color: var(--focus-color);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 83%;
   font-weight: 700;
-  text-shadow: 4px 4px 0 var(--shadow-color);
-  font-family: 'IBM Plex Mono';
-  
+  text-shadow: 4px 4px 0  var(--shadow-color);   
 }
 
-.header-title {
-  align-self: center;
+
+.header-title {  
+  align-self: center;  
 }
 
-.header__title,
+/* ------------------- focus --------------------- */
+
+
 .header-title-description {
   align-self: center;
   justify-self: flex-end;
@@ -152,8 +157,7 @@
   align-self: center;
   justify-self: flex-end;
   max-inline-size: calc(50% - 20px);
-  height: min-content;
-  
+  height: min-content;  
 }
 
 .title-decor {
@@ -161,16 +165,14 @@
   color: var(--decor-color);
   line-height: 23.4px;
   font-weight: 700;
-  font-size: 18px;
-  
+  font-size: 18px;  
 }
 
 .main {
   display: flex;
   flex-direction: column;
   gap: 80px;
-  margin-block: 60px;
-  
+  margin-block: 60px;  
 }
 
 .section {
@@ -209,13 +211,11 @@ a:focus-visible {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.section-cards-column {
+.section-cards {
   gap: 20px;
   grid-column: 2 span;
   display: flex;
-  flex-direction: column;
-  
-  
+  flex-direction: column;  
 }
 
 .card {
@@ -225,8 +225,7 @@ a:focus-visible {
   line-height: 23.4px;
   font-size: 18px;
   color: var(--card-text);
-  gap: 10px;
-  
+  gap: 10px;  
 }
 
 .main-section-average {
@@ -325,7 +324,7 @@ a:focus-visible {
     flex-direction: column;
   }
 
-  .section-cards-column {
+  .section-cards {
     margin-inline-start: 10px;
   }
 
@@ -338,10 +337,13 @@ a:focus-visible {
   @media (width <= 450px) {
   .header {
     min-height: 668px;
+    padding-bottom: 5px;
   }
 
   .header__theme-menu-list {
+    padding-top: 8px;
     margin-block-end: 15px;
+    border: 1px solid yellow;
   }
 
   .header__theme-menu-item {
@@ -352,11 +354,12 @@ a:focus-visible {
     min-inline-size: calc(100% - 20px);
     margin-block-start: 10px;
     margin-inline: 10px;
+    
   }
 
   .header-lamp-REC {
-    padding-right: 19px;
-    padding-top: 12px;
+    padding-right: 17px;
+    padding-top: 10px;
   }
 
   .decorated-zone::after {
@@ -388,7 +391,7 @@ a:focus-visible {
     margin-inline: 10px;
   }
 
-  .section-cards-column {
+  .section-cards {
     margin-inline-start: 0;
   }
 
@@ -413,4 +416,3 @@ a:focus-visible {
   }
 
 }
-
