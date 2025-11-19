@@ -28,10 +28,8 @@
   right: 0;
   font-family: 'IBM Plex Mono';
   font-weight: 400;
-  font-style: Regular;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: 0%;
   text-align: center;
   color: var(--theme-dark-color);
   padding-right: 29px;
@@ -104,12 +102,11 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 18%;
-  letter-spacing: 0%;
   text-align: center;
   text-transform: lowercase;
   height: 26px;
   width: 70px;
-  
+
 }
 
 .header__theme-menu-button_active {
@@ -132,8 +129,7 @@
   font-weight: 700;
   text-shadow: 4px 4px 0 var(--shadow-color);
   font-family: 'IBM Plex Mono';
-  letter-spacing: 0%;
-
+  
 }
 
 .header-title {
