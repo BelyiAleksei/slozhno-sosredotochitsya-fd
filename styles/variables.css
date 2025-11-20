@@ -3,7 +3,7 @@
   и их переопределение под различные устройства
 */
 :root {
-  /*
+  
   --bg-dark-img: url(../images/cover-image-dark.png);
   --bg-dark-color: rgba(0, 0, 40, 1);
   --bg-light-img: url(../images/cover-image-light.png);
@@ -33,7 +33,7 @@
   --card-text: var(--card-dark-text);
   --shadow-color: var(--theme-dark-color);
   --decor-color: var(--decor-dark-color);
-  */
+   /*
   --bg-light-img: url(../images/cover-image-light.png);
   --bg-dark-img: url(../images/cover-image-dark.png);
   --bg-light-clr: rgba(255, 241, 247, 1);
@@ -63,5 +63,6 @@
   --button-hover: var(--button-dark-hover);
   --decor-color: var(--decor-dark-color);
   --rec-visibility: var(--rec-visibility-yes);
-  --dot-visibility: var(--dot-visibility-yes);
+  --dot-visibility: var(--dot-visibility-yes); 
+  */
 }

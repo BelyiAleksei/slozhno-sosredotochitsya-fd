@@ -182,6 +182,10 @@
   color: var(--accent-color);
 }
 
+.section-gallery-title {
+  color: var(--decor-color);
+}
+
 a {
   text-shadow: 2px 2px var(--shadow-color);
   text-decoration: none;
@@ -334,7 +338,7 @@ a:focus-visible {
   .header__theme-menu-list {
     padding-top: 8px;
     margin-block-end: 15px;
-    border: 1px solid yellow;
+    
   }
 
   .header__theme-menu-item {
